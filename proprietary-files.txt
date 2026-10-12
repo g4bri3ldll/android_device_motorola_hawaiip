@@ -1039,7 +1039,6 @@ vendor/bin/disablefactory
 vendor/bin/dmabuf_dump
 vendor/bin/dmc_core
 vendor/bin/dumpsys
-vendor/bin/factory
 vendor/bin/getgameserver
 vendor/bin/jpegtool
 vendor/bin/keymaster_flag
@@ -1433,7 +1432,6 @@ vendor/lib/libhevce_sb.ca7.android.so
 vendor/lib/libicd_decoder.so
 vendor/lib/libimgsensorca.so
 vendor/lib/libispcameraca.so
-vendor/lib/libminiui.so
 vendor/lib/libmmc5603.so
 vendor/lib/libmmprofile.so
 vendor/lib/libmnetlink_v104.so
@@ -1506,7 +1504,6 @@ vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
 vendor/lib64/libaal_cust.so
 vendor/lib64/libaal_key.so
-vendor/lib64/libacdk.so
 vendor/lib64/libapmonitor_vendor.so
 vendor/lib64/libapu_mdw.so
 vendor/lib64/libapusys.so
@@ -1562,7 +1559,6 @@ vendor/lib64/libicd_decoder.so
 vendor/lib64/libimgsensorca.so
 vendor/lib64/libispcameraca.so
 vendor/lib64/libkmsetkey.so
-vendor/lib64/libminiui.so
 vendor/lib64/libmipc.so
 vendor/lib64/libmmc5603.so
 vendor/lib64/libmmprofile.so

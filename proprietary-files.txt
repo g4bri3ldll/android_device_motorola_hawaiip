@@ -1634,3 +1634,9 @@ vendor/res/sound/ringtone.wav
 vendor/res/sound/testpattern1.wav
 vendor/ro.prop
 vendor/rw.prop
+vendor/lib/libprotobuf-cpp-full-3.9.1.so
+vendor/lib/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib64/android.hardware.power-service-mediatek.so
+vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
+vendor/lib64/libprotobuf-cpp-full-3.9.1.so
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so

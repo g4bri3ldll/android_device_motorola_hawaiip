@@ -11,8 +11,6 @@ AB_OTA_PARTITIONS += \
     product \
     boot \
     vendor \
-    vbmeta_system \
-    vbmeta_vendor \
     system
 BOARD_USES_RECOVERY_AS_BOOT := true
 
@@ -103,3 +101,9 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
 include vendor/motorola/hawaiip/BoardConfigVendor.mk
+# Particoes dinamicas: system, vendor e product como imagens separadas
+BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
+BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
+TARGET_COPY_OUT_VENDOR := vendor
+TARGET_COPY_OUT_PRODUCT := product

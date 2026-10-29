@@ -464,9 +464,6 @@ vendor/bin/lib3a.ccu.pm
 vendor/firmware/lib3a.ccu
 
 # CAS
-vendor/bin/hw/android.hardware.cas@1.2-service-lazy
-vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc
-vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml
 
 # Display
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek

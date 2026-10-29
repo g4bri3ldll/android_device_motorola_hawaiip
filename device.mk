@@ -96,3 +96,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/motorola/hawaiip/hawaiip-vendor.mk)
+
+# VINTF: Power HAL (AIDL) exigido pelo framework
+PRODUCT_PACKAGES += android.hardware.power-service.example
